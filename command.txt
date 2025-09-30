@@ -1,0 +1,50 @@
+git config --global user.name "name"
+git config --global user.email "email"
+git config --list
+git clone "Url"
+git status
+git add "Add fill name"
+git add .
+git commit -m "Message"
+git push origin main
+git push -u origin main
+git branch
+git branch -M main
+git checkout -b "New Branch"
+git branch -d branch-name
+git branch --delete branch-name
+git checkout branch-name
+git reset
+git reset --hard
+git reset HEAD~1
+git pull origin main
+git diff
+git merge
+cd ..
+cd "folder_name"
+git log (To view branch commits)
+git log --all (To view all commits)
+git log --all --oneline (To view all commits in one line)
+
+git k next commands ye hen
+
+git remote -v
+git remote add origin URL
+git fetch
+git pull --rebase
+git push --force
+git switch branch-name
+git switch -c new-branch
+git stash
+git stash pop
+git cherry-pick commit-id
+git log --oneline --graph --all
+git show commit-id
+git blame file
+git reflog
+git revert commit-id
+git tag v1.0
+git push origin v1.0
+.gitignore
+git clean -fd
+git config alias.name "command"
