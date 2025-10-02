@@ -22,6 +22,8 @@ git diff
 git merge
 cd ..
 cd "folder_name"
+mkdir foloername
+rm folder name
 git log (To view branch commits)
 git log --all (To view all commits)
 git log --all --oneline (To view all commits in one line)
@@ -48,3 +50,22 @@ git push origin v1.0
 .gitignore
 git clean -fd
 git config alias.name "command"
+
+
+
+
+NEW Commands 
+
+git remote show origin
+git remote add origin URL
+git revert id
+git revert head~3..head
+git revert --no-commit head~3..
+git reset id
+git reset --hard head~1
+git merge --abort
+git stash
+git stash -m "message"
+gir stash list
+git stash apply 1
+git stash drop 1
